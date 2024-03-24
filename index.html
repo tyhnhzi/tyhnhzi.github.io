@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TyhnhziEN | VN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--Header-->
+<header>
+    <h1 id="dynamic-header">TyhnhziEN Website</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <button onclick="logout()">Logout</button>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="animated-element">
+        <h2>Welcome to Your Website</h2>
+        <p>| Inhale The Future - Exhale The Past |</p>
+    </section>
+</main>
+<!--Tst-->
+<h1 id="dynamic-text"></h1>
+<h2 class="dynamic-text">TyhnhziEN | VN</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer-->
+<footer>
+    <p>&copy; Website was create by Tyhnhzi (Vet Mua) </p>
+</footer>
+<!--Script-->
+<script>
+    // JavaScript to toggle class on button click
+    document.addEventListener('DOMContentLoaded', function() {
+        const button = document.querySelector('.toggle-button');
+        const section = document.querySelector('.animated-element');
+        
+        button.addEventListener('click', function() {
+            section.classList.toggle('animated');
+        });
+    });
+</script>
+<script>
+    function logout() {
+        window.location.href = "login.html";
+    }
+</script>
+<script src="script.js"></script>
+</body>
+</html>

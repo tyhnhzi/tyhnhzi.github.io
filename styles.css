@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.ibb.co/gtMhS3F/pexels-eberhard-grossgasteiger-2310713.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #15d34e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    color: #0004ff;
+    text-align: center;
+    font-size: 16px
+    cursor: pointer;
+}
+
+@keyframes changeColor {
+    0% { color: red;}
+    25% { color: blue}
+    50% { color: green }
+    75% { color: orange }
+    100% { color: purple }
+}
+
+.dynamic-text {
+    animation: changeColor 0.5s infinite;
+}

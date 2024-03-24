@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+    <div class="running-text-container">
+        <h1 class="running-text">| Login to your Account! |</h1>
+        </div>
+    </header>
+    <!-- Form dang nhap -->
+<div class="container">
+    <form id="loginForm" class="login-form">
+        <h2>Login</h2>
+        <div class="form-g">
+            <label for="loginUsername">Username:</label>
+            <input type="text" id="username" name="username" required />
+        </div>
+        <div class="form-g">
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="password" name="password" required/>
+        </div>
+        <button type="submit" onclick="validate()">Login</button>
+    </form> 
+</div>
+</body>
+<a href="./fp.txt" class="tkmk">Password ? </a> 
+<!--Footer-->
+<footer>
+  <div class="container">
+    <span class="text-muted">Copyright &copy; TyhnhziEN | Haruka416</span>
+  </div>
+</footer>
+<!--Script-->
+  <script src="login.js"></script>
+  </html>
